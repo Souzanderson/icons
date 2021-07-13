@@ -1,0 +1,23 @@
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  .item {
+    padding: 8px;
+    text-align: center;
+    width: 142px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+  }
+  p{
+    overflow-wrap: anywhere;
+  }
+}
