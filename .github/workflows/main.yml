@@ -18,4 +18,4 @@ jobs:
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASS }}
         server-dir: icons.malbizer.com.br/
-        local-dir: ./dist/frigottoclient/
+        local-dir: ./dist/iconscomponent
